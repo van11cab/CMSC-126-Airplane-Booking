@@ -1,0 +1,43 @@
+<html>
+	<head>
+		<title>Up Min Booking</title>
+		<link rel="stylesheet" type ="text/css" href = "booking.css"/>
+		<script src = "booking.js">
+		</script>
+		
+	</head>
+	<body>
+		<p style="font-family: lovelo black;text-align: center;">
+			<font style="text-align: center; font-size:40px;">
+				UP MINDANAO AIRLINE EXPRESS</font><br>
+				ONLINE BOOKING</b>
+		</p><br>
+		<div id="box1"><br>
+			<p style="font-size: 20px;text-align: center;font-family: Lovelo Black;"> Passenger and Flight Details:</p>
+			<br><p class="confirm" id="sub" style="text-align: center;"></p>
+			<div id="box1" class="inner1">
+				<p>Last Name: <input  type="text" id="lastname"><p class="alert" id="alert1"></p>
+				<p>First Name: <input type="text" id="firstname"><p class="alert" id="alert2"></p>
+				<form>
+						<label for="genders"> Gender:</label>
+						<select id="Gender" name="genders">
+							<option value="None">--None--</option>
+							<option value="Male">Male</option>
+							<option value="Female">Female</option>
+							<option value="Secret">Prefer Not to Tell</option>
+						</select>
+						<p class="alert" id="alert3">
+				</form>
+				<p>Email Adress: <input type="text" id="adress"><p class="alert" id="alert4"></p>
+			</div>
+			<div id="box1" class="inner2">
+				<p>Origin: <input type="text" id="Origin"><p class="alert" id="alert5"></p>
+				<p>Destination: <input type="text" id="Destination"><p class="alert" id="alert6"></p>
+				<p>Departure Date: <input type="Date" id="date1"><p class="alert" id="alert7"></p>
+				<p>Return Date: <input type="Date" id="date2"><p class="alert" id="alert8"></p>
+			</div>
+			<button onclick="submit()" id="btn1" class="button1">Submit</button>
+			<br><br><p class="confirm" id="sub"></p>
+			
+	</body>
+</html>

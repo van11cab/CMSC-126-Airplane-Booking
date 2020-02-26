@@ -1,0 +1,58 @@
+body{
+				font-family: Calibri;
+				background-image: url('erplen.png');
+				background-size:100%;
+				background-repeat: no-repeat;
+			}
+
+			p.alert {
+				color:red;
+				
+			}
+			p.confirm {
+			color:green;
+			}
+			#box2{
+				width:40%;
+				height:70%;
+				background-color:white;
+				opacity:0.5;
+				position:absolute;
+				font-family: Lovelo Black;
+				text-align: center;
+			}
+			#box1 {
+				overflow-x:hidden;
+				width:40%;
+				height:70%;
+				background-color: white;
+				float:right;
+				margin-right: 2%;
+				z-index:0;
+				font-family:Tw Cen MT;
+				border-radius: 5%;
+			}
+			#box1.inner1{
+				position:absolute;
+				width:20%;
+				height: 50%;
+			}
+			#box1.inner2{
+				margin-left:19%;
+				width:20%;
+				height: 50%;
+				position:absolute;
+			}
+
+			.button1 {
+				margin-top:20%;
+				z-index: 5;
+				position:absolute;
+				 border:none; 
+				 background-color: #00151F; 
+				 color:white;
+				  padding:1%;
+				 border-radius:5px;
+				 width:39.5%;
+
+			}
